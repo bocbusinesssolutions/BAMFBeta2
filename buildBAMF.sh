@@ -1,12 +1,12 @@
 #Prerequisites:
-#  1a. Deploy PhotonOS
+#  1a. Deploy PhotonOS and login as root
 #  2a. Change root password
 #  3a. Run vi /etc/resolv.conf - add 8.8.8.8 and 8.8.8.4 as nameservers
 #  4a. Run yum install git
 #  5a. Clone BAMFBeta2 repository
 #
 #  1b. Deploy RHEL
-#  2b. Login using SSH security key
+#  2b. Login using ec2-user and SSH security key
 #  3b. Run curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 #  4b. Run curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
 #  5b. Run sudo yum -y install nodejs
