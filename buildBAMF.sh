@@ -13,9 +13,7 @@
 #  6b. Run sudo yum install git
 #  7b. Clone BAMFBeta2 repository
 #  
-systemctl start docker
-systemctl enable docker
-yum install iputils git nodejs wget tar unzip make
+yum install iputils git nodejs wget tar unzip make screen
 iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
 iptables -A OUTPUT  -p tcp --dport 3000 -j ACCEPT
 npm install express --save
