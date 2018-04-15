@@ -19,8 +19,8 @@
 #  9b. Run node index.js &
 #  
 yum install iputils git nodejs wget tar unzip make screen
-iptables -A INPUT -p tcp --dport 3000 -j ACCEPT
-iptables -A OUTPUT  -p tcp --dport 3000 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+iptables -A OUTPUT  -p tcp --dport 80 -j ACCEPT
 npm install express --save
 npm i express-handlebars
 npm i socket.io
