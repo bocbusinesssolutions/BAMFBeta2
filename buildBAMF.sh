@@ -3,7 +3,7 @@
 #  2a. Change root password
 #  3a. Run vi /etc/resolv.conf - add 8.8.8.8 and 8.8.8.4 as nameservers
 #  4a. Run yum install git
-#  5a. Clone BAMFBeta2 repository
+#  5a. Clone BAMFBeta2 repository: sudo git clone https://github.com/bocbusinesssolutions/BAMFBeta2.git
 #
 #  1b. Deploy RHEL
 #  2b. Login using ec2-user and SSH security key
@@ -11,7 +11,7 @@
 #  4b. Run curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
 #  5b. Run sudo yum -y install nodejs
 #  6b. Run sudo yum install git
-#  7b. Clone BAMFBeta2 repository
+#  7b. Clone BAMFBeta2 repository: sudo git clone https://github.com/bocbusinesssolutions/BAMFBeta2.git
 #  
 yum install iputils git nodejs wget tar unzip make screen
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
