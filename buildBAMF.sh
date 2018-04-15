@@ -20,5 +20,6 @@ npm install express --save
 npm i express-handlebars
 npm i socket.io
 npm i url
-npm i sys
+#npm i sys -- depricated, use console.log instead
 npm i path
+
