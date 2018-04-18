@@ -27,5 +27,5 @@ npm i socket.io
 npm i url
 #npm i sys -- depricated, use console.log instead
 npm i path
-
+npm install pm2@latest -g
 
