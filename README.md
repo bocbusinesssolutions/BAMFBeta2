@@ -1,4 +1,4 @@
-![BAMF Logo](https://github.com/bocbusinesssolutions/BAMFBeta2/blob/master/BAMF_logo.png)
+# BAMF
 #### by BOC Business Solutions LLC
 
 
